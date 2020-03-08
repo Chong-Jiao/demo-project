@@ -9,3 +9,7 @@ At minimum, you'll need to create the following:
 - LICENSE.md: Your project's license, if it's open source. (See opensource.org for more information about selecting one.)
 - .gitignore: A special file that tells Git what files and directories to ignore. (If you're using another VCS, this file has a different name. Look it up.)
 - A directory with the name of your project.
+
+## Distribute the package
+
+- `python setup.py sdist bdist_wheel`
