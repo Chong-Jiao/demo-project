@@ -13,3 +13,6 @@ At minimum, you'll need to create the following:
 ## Distribute the package
 
 - `python setup.py sdist bdist_wheel`
+- `python setup.py install`
+- `pip install -e .`
+- `pip install --user $packagename$`
